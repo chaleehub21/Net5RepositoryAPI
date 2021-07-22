@@ -25,6 +25,7 @@ namespace APIRepositoryPattern.Controllers
         public string GetStuden()
         {
             var studen = _repoWrapper.Studen.GetOnce();
+            _repoWrapper.LineNoti.lineNotify("เรายิงมาจาก API ทดสอบน๊ะจ๊ะ");
             return studen;
         }
 

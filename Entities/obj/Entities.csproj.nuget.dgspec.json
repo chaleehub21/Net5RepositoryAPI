@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WasupolSirasawat\\source\\repos\\APIRepositoryPattern\\Entities\\Entities.csproj": {}
+    "D:\\Works\\.NETCore\\Net5RepositoryAPI\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WasupolSirasawat\\source\\repos\\APIRepositoryPattern\\Entities\\Entities.csproj": {
+    "D:\\Works\\.NETCore\\Net5RepositoryAPI\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WasupolSirasawat\\source\\repos\\APIRepositoryPattern\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Works\\.NETCore\\Net5RepositoryAPI\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\WasupolSirasawat\\source\\repos\\APIRepositoryPattern\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Works\\.NETCore\\Net5RepositoryAPI\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\WasupolSirasawat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WasupolSirasawat\\source\\repos\\APIRepositoryPattern\\Entities\\obj\\",
+        "outputPath": "D:\\Works\\.NETCore\\Net5RepositoryAPI\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WasupolSirasawat\\AppData\\Roaming\\NuGet\\NuGet.Config",

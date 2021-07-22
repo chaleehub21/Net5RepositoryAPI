@@ -6003,11 +6003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WasupolSirasawat\\source\\repos\\APIRepositoryPattern\\APIRepositoryPattern\\APIRepositoryPattern.csproj",
+      "projectUniqueName": "D:\\Works\\.NETCore\\Net5RepositoryAPI\\APIRepositoryPattern\\APIRepositoryPattern.csproj",
       "projectName": "APIRepositoryPattern",
-      "projectPath": "C:\\Users\\WasupolSirasawat\\source\\repos\\APIRepositoryPattern\\APIRepositoryPattern\\APIRepositoryPattern.csproj",
+      "projectPath": "D:\\Works\\.NETCore\\Net5RepositoryAPI\\APIRepositoryPattern\\APIRepositoryPattern.csproj",
       "packagesPath": "C:\\Users\\WasupolSirasawat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WasupolSirasawat\\source\\repos\\APIRepositoryPattern\\APIRepositoryPattern\\obj\\",
+      "outputPath": "D:\\Works\\.NETCore\\Net5RepositoryAPI\\APIRepositoryPattern\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\WasupolSirasawat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6024,8 +6024,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\WasupolSirasawat\\source\\repos\\APIRepositoryPattern\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\WasupolSirasawat\\source\\repos\\APIRepositoryPattern\\Repository\\Repository.csproj"
+            "D:\\Works\\.NETCore\\Net5RepositoryAPI\\Repository\\Repository.csproj": {
+              "projectPath": "D:\\Works\\.NETCore\\Net5RepositoryAPI\\Repository\\Repository.csproj"
             }
           }
         }

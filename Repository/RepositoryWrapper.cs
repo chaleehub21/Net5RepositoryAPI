@@ -13,6 +13,7 @@ namespace Repository
         private SchoolContext _schoolContext;
         private SchoolRepository _schoolRepository;
         private StudenRepository _studenRepository;
+        private LineNotiRepository _lineNotiRepository;
 
         public SchoolRepository School
         {
@@ -35,6 +36,18 @@ namespace Repository
                     _studenRepository = new StudenRepository(_schoolContext);
                 }
                 return _studenRepository;
+            }
+        }
+
+        public LineNotiRepository LineNoti
+        {
+            get
+            {
+                if (_lineNotiRepository == null)
+                {
+                    _lineNotiRepository = new LineNotiRepository();
+                }
+                return _lineNotiRepository;
             }
         }
 
