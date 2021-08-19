@@ -14,9 +14,9 @@ namespace APIRepositoryPattern.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private RepositoryWrapper _repoWrapper;
+        private IRepositoryWrapper _repoWrapper;
 
-        public WeatherForecastController(RepositoryWrapper repoWrapper)
+        public WeatherForecastController(IRepositoryWrapper repoWrapper)
         {
             _repoWrapper = repoWrapper;
         }

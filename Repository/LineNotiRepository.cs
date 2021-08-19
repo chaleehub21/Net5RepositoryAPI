@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Contracts;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class LineNotiRepository
+    public class LineNotiRepository : ILineNotiRepository
     {
         public void lineNotify(string msg)
         {

@@ -12,7 +12,8 @@ namespace Entities
         {
         }
 
-        public virtual DbSet<School> Schools { get; set; }
+        public virtual DbSet<School> School { get; set; }
         public virtual DbSet<Studen> Studens { get; set; }
+        public virtual DbSet<User> Users { get; set; }
     }
 }

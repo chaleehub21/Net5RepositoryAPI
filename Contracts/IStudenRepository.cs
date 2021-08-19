@@ -9,6 +9,6 @@ namespace Contracts
 {
     public interface IStudenRepository : IRepositoryBase<Studen>
     {
-
+        public string GetOnce();
     }
 }

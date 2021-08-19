@@ -1,21 +1,20 @@
 ﻿using Contracts;
 using Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Entities.Helper;
+using Microsoft.Extensions.Options;
 
 namespace Repository
 {
-    public class RepositoryWrapper //: IRepositoryWrapper
+    public class RepositoryWrapper : IRepositoryWrapper
     {
         private SchoolContext _schoolContext;
-        private SchoolRepository _schoolRepository;
-        private StudenRepository _studenRepository;
-        private LineNotiRepository _lineNotiRepository;
+        private readonly AppSettings _appSettings;
+        private ISchoolRepository _schoolRepository;
+        private IStudenRepository _studenRepository;
+        private ILineNotiRepository _lineNotiRepository;
+        private IUsersRepository _usersRepository;
 
-        public SchoolRepository School
+        public ISchoolRepository School
         {
             get
             {
@@ -27,7 +26,7 @@ namespace Repository
             }
         }
 
-        public StudenRepository Studen
+        public IStudenRepository Studen
         {
             get
             {
@@ -39,7 +38,7 @@ namespace Repository
             }
         }
 
-        public LineNotiRepository LineNoti
+        public ILineNotiRepository LineNoti
         {
             get
             {
@@ -51,9 +50,22 @@ namespace Repository
             }
         }
 
-        public RepositoryWrapper(SchoolContext schoolContext)
+        public IUsersRepository Users
+        {
+            get
+            {
+                if (_usersRepository == null)
+                {
+                    _usersRepository = new UserRepository(_schoolContext,_appSettings);
+                }
+                return _usersRepository;
+            }
+        }
+
+        public RepositoryWrapper(SchoolContext schoolContext, IOptions<AppSettings> appSettings)
         {
             _schoolContext = schoolContext;
+            _appSettings = appSettings.Value;
         }
 
         public void Save()

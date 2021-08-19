@@ -23,7 +23,6 @@ D:\Works\.NETCore\Net5RepositoryAPI\Repository\bin\Debug\net5.0\Contracts.dll
 D:\Works\.NETCore\Net5RepositoryAPI\Repository\bin\Debug\net5.0\Entities.dll
 D:\Works\.NETCore\Net5RepositoryAPI\Repository\bin\Debug\net5.0\Contracts.pdb
 D:\Works\.NETCore\Net5RepositoryAPI\Repository\bin\Debug\net5.0\Entities.pdb
-D:\Works\.NETCore\Net5RepositoryAPI\Repository\obj\Debug\net5.0\Repository.csprojAssemblyReference.cache
 D:\Works\.NETCore\Net5RepositoryAPI\Repository\obj\Debug\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
 D:\Works\.NETCore\Net5RepositoryAPI\Repository\obj\Debug\net5.0\Repository.AssemblyInfoInputs.cache
 D:\Works\.NETCore\Net5RepositoryAPI\Repository\obj\Debug\net5.0\Repository.AssemblyInfo.cs
@@ -32,3 +31,4 @@ D:\Works\.NETCore\Net5RepositoryAPI\Repository\obj\Debug\net5.0\Repository.cspro
 D:\Works\.NETCore\Net5RepositoryAPI\Repository\obj\Debug\net5.0\Repository.dll
 D:\Works\.NETCore\Net5RepositoryAPI\Repository\obj\Debug\net5.0\ref\Repository.dll
 D:\Works\.NETCore\Net5RepositoryAPI\Repository\obj\Debug\net5.0\Repository.pdb
+D:\Works\.NETCore\Net5RepositoryAPI\Repository\obj\Debug\net5.0\Repository.csproj.AssemblyReference.cache

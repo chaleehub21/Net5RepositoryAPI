@@ -1,5 +1,6 @@
 using Contracts;
 using Entities;
+using Entities.Helper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,8 +33,13 @@ namespace APIRepositoryPattern
         {
             services.AddDbContext<SchoolContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("DefalutConnection")));
-            services.AddScoped<RepositoryWrapper, RepositoryWrapper>();
+
+            services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
+
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
+
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "APIRepositoryPattern", Version = "v1" });
@@ -54,7 +60,7 @@ namespace APIRepositoryPattern
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseMiddleware<JwtMiddleware>();
 
             app.UseEndpoints(endpoints =>
             {

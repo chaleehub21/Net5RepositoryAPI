@@ -19,7 +19,6 @@ D:\Works\.NETCore\Net5RepositoryAPI\Contracts\bin\Debug\net5.0\ref\Contracts.dll
 D:\Works\.NETCore\Net5RepositoryAPI\Contracts\bin\Debug\net5.0\Contracts.pdb
 D:\Works\.NETCore\Net5RepositoryAPI\Contracts\bin\Debug\net5.0\Entities.dll
 D:\Works\.NETCore\Net5RepositoryAPI\Contracts\bin\Debug\net5.0\Entities.pdb
-D:\Works\.NETCore\Net5RepositoryAPI\Contracts\obj\Debug\net5.0\Contracts.csprojAssemblyReference.cache
 D:\Works\.NETCore\Net5RepositoryAPI\Contracts\obj\Debug\net5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
 D:\Works\.NETCore\Net5RepositoryAPI\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfoInputs.cache
 D:\Works\.NETCore\Net5RepositoryAPI\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfo.cs
@@ -28,3 +27,4 @@ D:\Works\.NETCore\Net5RepositoryAPI\Contracts\obj\Debug\net5.0\Contracts.csproj.
 D:\Works\.NETCore\Net5RepositoryAPI\Contracts\obj\Debug\net5.0\Contracts.dll
 D:\Works\.NETCore\Net5RepositoryAPI\Contracts\obj\Debug\net5.0\ref\Contracts.dll
 D:\Works\.NETCore\Net5RepositoryAPI\Contracts\obj\Debug\net5.0\Contracts.pdb
+D:\Works\.NETCore\Net5RepositoryAPI\Contracts\obj\Debug\net5.0\Contracts.csproj.AssemblyReference.cache
